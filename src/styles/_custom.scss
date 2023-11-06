@@ -1,0 +1,68 @@
+// Here you can add other styles
+
+.btn-primary {
+    --cui-btn-color: rgba(255, 255, 255, 0.87);
+    --cui-btn-bg: #9900CC;
+    --cui-btn-border-color: #9900CC;
+    --cui-btn-hover-color: rgba(255, 255, 255, 0.87);
+    --cui-btn-hover-bg: #770f99;
+    --cui-btn-hover-border-color: #770f99;
+    --cui-btn-focus-shadow-rgb: 75, 58, 223;
+    --cui-btn-active-color: rgba(255, 255, 255, 0.87);
+    --cui-btn-active-bg: #770f99;
+    --cui-btn-active-border-color: #770f99;
+    --cui-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 21, 0.125);
+    --cui-btn-disabled-color: rgba(255, 255, 255, 0.87);
+    --cui-btn-disabled-bg: #9900CC;
+    --cui-btn-disabled-border-color: #9900CC;
+}
+
+.sidebar {
+    --cui-sidebar-bg: #3d0051;
+}
+
+
+.ml-2{
+    margin-left: 10px;
+}
+
+.rounded-lg{
+    border-radius: 10%;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+.mr-4{
+    margin-right: 40px;
+}
+
+.mr-2{
+    margin-right: 20px;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.text-end{
+    text-align: right;
+}
+
+.selected{
+    background-color: #dfa0f47d !important;
+    padding-left: 20px !important;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
