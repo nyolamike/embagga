@@ -1,13 +1,7 @@
 let baseUrl = ''
-// if (process.env.NODE_ENV === 'production') {
-//     baseUrl = 'https://bee.slingacts.com/';
-// } else if (process.env.NODE_ENV === 'test') {
-//     baseUrl = 'https://bee.slingacts.com/';
-// } else {
-//     baseUrl = "http://localhost:7186/";
-// }
 
-baseUrl = "http://localhost:7796/";
+// baseUrl = "http://localhost:7796/";
+baseUrl = "https://api.embagga.com/"
 
 
 export const apiHost = baseUrl
